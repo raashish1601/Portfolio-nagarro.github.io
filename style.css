@@ -18,7 +18,7 @@
 
 *::selection {
     background: var(--pink);
-    color: black;
+    color: pink;
 }
 
 html {
@@ -42,33 +42,6 @@ body {
 background: radial-gradient(circle, rgba(27, 2, 19, 1) 67%, rgba(176, 5, 149, 1) 100%);
     overflow-x: hidden;
     padding-left: 35rem;
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-main {
-  background-color: rgba(255, 255, 255, 0.129);
-  margin: 5%;
-  padding: 3%;
-  border-radius: 1rem;
-  box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.551);
-}
-
-#links {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 5%;
-}
-
-#links img {
-  opacity: 50%;
-  height: 40px;
-  width: 40px;
 }
 
 section {
@@ -318,7 +291,7 @@ header .navbar ul li a:hover {
 }
 
 
-.portfolio .box-container {
+/*.portfolio .box-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -343,7 +316,7 @@ header .navbar ul li a:hover {
 
 .portfolio .box-container .box:hover img {
     transform: scale(1.2);
-}
+}*/
 
 .contact .row {
     display: flex;
