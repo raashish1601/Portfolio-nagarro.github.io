@@ -39,7 +39,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 body {
-background: radial-gradient(circle, rgba(27, 2, 19, 1) 67%, rgba(176, 5, 149, 1) 100%);
+background: radial-gradient(circle, rgba(207, 20, 109, 100) 87%, rgba(176, 50, 149, 100) 100%);
     overflow-x: hidden;
     padding-left: 35rem;
 }
@@ -130,7 +130,7 @@ header .navbar ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
-    background: green;
+    background: red;
     color: black;
     font-size: 2rem;
     border-radius: 5rem;
